@@ -9,7 +9,7 @@ from SearchProject import SearchProject
 
 def loginMenu(userEmail):
     while True:
-        print(f"\n--- Project Management (Logged in as: {userEmail}) ---")
+        print(f" Project Management (Logged in as: {userEmail}) ")
         print("[1] Create a Project")
         print("[2] View All Projects")
         print("[3] Edit Your Own Projects")

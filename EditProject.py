@@ -45,10 +45,8 @@ def EditProject(userEmail):
                 updated_list.append(updated_line)
                 print("Project updated locally.")
             else:
-                # keep the original line if it doesn't match
                 updated_list.append(line + "\n")
         else:
-            # Keep lines that don't match the format (to avoid losing data)
             updated_list.append(line + "\n")
 
     if found:

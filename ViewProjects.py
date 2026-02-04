@@ -18,12 +18,13 @@ def ViewProjects(userEmail):
                     details = parts[2]
                     target = parts[3]
 
+                    # الفلتر الأصلي: بيقارن إيميل السطر بإيميل المستخدم الحالي
                     if email == userEmail:
                         found_any = True
-                        print("-" * 20)
                         print(f"Title:   {title}")
                         print(f"Details: {details}")
                         print(f"Target:  {target}")
+                        print("-" * 20)
 
         if not found_any:
             print(" No projects found for your account")

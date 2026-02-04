@@ -23,4 +23,3 @@ def CreateProject(userMail):
     projInfo = [userMail, title, details, str(target), start_date, end_date]
     AddNewProjects.addProject(projInfo)
     print("Project saved successfully!")
-    print("Exiting application. Goodbye!")
