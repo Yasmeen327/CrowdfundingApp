@@ -1,0 +1,5 @@
+p1:School Renovation:Fix village school:250000:2024-06-01:2024-08-01:1
+p2:Medical Help:Help sick child:100000:2024-07-01:2024-09-01:2
+p3:Tech Startup:AI education platform:500000:2024-05-10:2024-12-31:1
+p4:Charity Drive:Collect funds for charity:10000:2026-01-15:2026-03-15:2
+yasmeen@gmail.com:Kids Education:raising money to improve poor kids education:350000:2026-03-28:2026-05-29
